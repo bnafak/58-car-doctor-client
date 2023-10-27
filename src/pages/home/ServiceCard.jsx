@@ -14,7 +14,7 @@ const ServiceCard = ({service}) => {
           className="rounded-xl"
         />
       </figure>
-      <div className="card-body items-center text-center">
+      <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>Price ${price}</p>
         <div className="card-actions">
